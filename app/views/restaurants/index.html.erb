@@ -1,0 +1,7 @@
+<h1 class="text-center">Restaurants</h1>
+
+<div class="text-center my-3">
+  <%= link_to "Create New Restaurant", new_restaurant_path, class: "btn btn-success" %>
+</div>
+
+<%= render 'list', restaurants: @restaurants %>
